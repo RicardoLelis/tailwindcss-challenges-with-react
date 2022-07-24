@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Challenge1 from './components/Challenge1'
+import Challenge2 from './components/Challenge2'
+import Challenge3 from './components/Challenge3'
+import Challenge4 from './components/Challenge4'
+import Challenge5 from './components/Challenge5'
+import Challenge6 from './components/Challenge6'
+import Challenge7 from './components/Challenge7'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Challenge1 />
+      <Challenge2 />
+      <Challenge3 />
+      <Challenge4 />
+      <Challenge5 />
+      <Challenge6 />
+      <Challenge7 />
     </div>
   );
 }
